@@ -1,0 +1,29 @@
+{
+  "_comment": "설치한 패키지의 버전을 관리하는 파일",
+  "name": "nodeexample",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simhw/NodeExample.git"
+  },
+  "author": "ShimHyunwoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simhw/NodeExample/issues"
+  },
+  "homepage": "https://github.com/simhw/NodeExample#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
