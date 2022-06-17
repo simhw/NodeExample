@@ -10,8 +10,8 @@ const app = express();
 
 dotenv.config();    // ./env 파일을 읽어서 process.env 로 만듦
 
-const indexRouter = require('./ch06/routes/index');
-const userRouter = require('./ch06/routes/user');
+const indexRouter = require('./routes/index');
+const userRouter = require('./routes/user');
 
 app.set('port', process.env.PORT || 3000);  // 서버가 실행될 포트 설정 
 app.set('view engine', 'html');

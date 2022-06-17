@@ -1,1 +1,5 @@
-/node_modules
+ch06/node_modules
+ch06/.env
+
+nodebird/node_modules
+nodebird/.env
